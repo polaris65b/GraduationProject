@@ -2,7 +2,7 @@ import sqlite3
 
 def fetch_data(table_name):
     # Connect to the SQLite DB file
-    conn = sqlite3.connect('storedb.db')
+    conn = sqlite3.connect('C:\dev\koreatech\graduationProject\kmeans\dbtopy\storedb.db')
     cursor = conn.cursor()
     
     # Build the SQL query string
