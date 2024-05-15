@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 import seaborn as sns
 
 # 1. 데이터 읽기
-df = pd.read_csv('C:\\dev\\koreatech\\graduationProject\\kmeans\\efc\\재활훈련정보.csv')  # 윈도우 경로 사용 시 이스케이프 문자 주의
+df = pd.read_csv('C:\\dev\\koreatech\\graduationProject\\kmeans\\efc\\재활훈련정보.csv')
 
 # 2. 필요한 열 선택 및 결측치 제거
 df = df[['grade', 'height', 'age', 'BFP', 'train_count']].dropna()
