@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>images/left.ico</file>
+    <file>images/up.ico</file>
+    <file>images/down.ico</file>
+    <file>images/down.png</file>
+    <file>images/up.png</file>
+    <file>images/lefticon.ico</file>
+    <file>images/righticon.ico</file>
+  </qresource>
+</RCC>
